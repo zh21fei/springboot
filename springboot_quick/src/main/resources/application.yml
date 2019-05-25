@@ -1,0 +1,45 @@
+#配置普通数据
+name: 柳传志
+
+#配置对象数据
+#key1前面的空格个数不限定，在yml语法中，相同缩进代表同一个级别
+person:
+  name: tom
+  age: 10
+  gender: 女
+
+#配置对象数据行内配置
+student: {name: tom,age: 29,gender: 男}
+
+#配置map数据，同对象的写法
+
+#配置数组集合，普通字符串
+city:
+  - bejing
+  - xian
+  - shanghai
+  - shenzhen
+
+#或者
+city1: [xian,beijing,shanghai]
+
+# 配置数据、集合（集合中的数据是对象元素）
+student1:
+  - name: haha
+    genger: 女
+    addr: 西安
+  - name: lisi
+    gender: 男
+    addr: 北京
+  - name: wangwu
+    gender: 女
+    addr: 男
+
+#或者
+
+
+server:
+  port: 8082
+  servlet:
+    context-path: /demo
+
